@@ -1,0 +1,1 @@
+# capacitor_foreground_issue
