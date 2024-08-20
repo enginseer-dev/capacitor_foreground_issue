@@ -1,0 +1,42 @@
+PODS:
+  - Capacitor (6.1.2):
+    - CapacitorCordova
+  - CapacitorCordova (6.1.2)
+  - CordovaPluginsStatic (6.1.2):
+    - CapacitorCordova
+    - PushwooshInboxUIXCFramework (= 6.1.2)
+    - PushwooshXCFramework (= 6.5.13)
+  - PushwooshInboxUIXCFramework (6.1.2):
+    - PushwooshXCFramework (~> 6.0)
+  - PushwooshXCFramework (6.5.13):
+    - PushwooshXCFramework/Core (= 6.5.13)
+  - PushwooshXCFramework/Core (6.5.13)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - CordovaPluginsStatic (from `../capacitor-cordova-ios-plugins`)
+
+SPEC REPOS:
+  trunk:
+    - PushwooshInboxUIXCFramework
+    - PushwooshXCFramework
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CordovaPluginsStatic:
+    :path: "../capacitor-cordova-ios-plugins"
+
+SPEC CHECKSUMS:
+  Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
+  CapacitorCordova: f48c89f96c319101cd2f0ce8a2b7449b5fb8b3dd
+  CordovaPluginsStatic: dda67882e622c7a26a20d8107b2adfe19d697716
+  PushwooshInboxUIXCFramework: a6d8528ef5194d188e4574a373020f399255f6c7
+  PushwooshXCFramework: bf1f4a0a7cd7453f93b740f7943a2f5d6054e899
+
+PODFILE CHECKSUM: 1ac406d33ba36a68501fa63a2e180e14ccc0539d
+
+COCOAPODS: 1.15.2
