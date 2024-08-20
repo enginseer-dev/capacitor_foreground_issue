@@ -31,6 +31,8 @@ function onDeviceReady() {
     pushwooshInitialize(pushwoosh);
 
     registerForPushNotificationAction(pushwoosh);
+    pushwoosh.setShowPushnotificationAlert(true);
+    console.log('setShowPushnotificationAlert = true');
 }
 
 function pushwooshInitialize(pushwoosh) {
